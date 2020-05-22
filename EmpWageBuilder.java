@@ -10,6 +10,9 @@ public class EmpWageBuilder {
 	int WagePerHr = 20, FullDayHrs = 8;
 	int DailyEmployeeWage;
 	DailyEmployeeWage = WagePerHr * FullDayHrs;
-	System.out.println("DailyEmployeeWage is" +DailyEmployeeWage);
-	}
-}
+	System.out.println("DailyEmployeeWage" +DailyEmployeeWage);
+		int PartTimeHrs = 4;
+		DailyEmployeeWage = WagePerHr * PartTimeHrs;
+		System.out.println("DailyEmployeeWage" +DailyEmployeeWage);
+		}
+	}	
